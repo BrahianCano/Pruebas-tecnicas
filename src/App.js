@@ -1,14 +1,12 @@
 import React from 'react';
 
-import Form from './components/Form'
+import Form from './views/Form'
 
 function App() {
   return (
-    <div className="container">
-      <h1>Fomulario</h1>
-      
+    <main>      
       <Form/>
-    </div>
+    </main>
   );
 }
 
